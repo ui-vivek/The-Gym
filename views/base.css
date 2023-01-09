@@ -1,0 +1,36 @@
+ul{
+    display: flex;
+    top: 1%;
+    justify-content: center ;
+  }
+  li{
+      list-style: none;
+      margin: 0.5% 1%;
+      cursor: pointer;
+      padding: 0.1% 0.8%;
+      font-size: 150%;
+      
+    }
+    li>a{
+      color: rgb(189, 189, 189);
+    text-decoration: none;
+  }
+  li>a>span{
+    font-size: 1.5em;
+    color: rgb(13, 212, 179);
+  }
+  li>a:hover{
+    color:rgb(13, 212, 179);
+    font-weight: 400;
+    
+  }
+  #thegym{
+    font-family: 'Rubik Distressed', cursive;
+    top: -1.5%;
+    position:absolute;
+    left: 6%; 
+  }
+  #thegym>a:hover{
+    color: rgb(189, 189, 189);
+    background-color:transparent;
+  }

@@ -1,0 +1,32 @@
+extends base.pug
+
+block style 
+    style 
+        include base.css
+        include feature.css
+block content
+        div#main
+            div.box#box1
+                p(style="font-size:2em; color:rgb(189, 189, 189) ; margin-left: 2.5%") Every WorkOut...
+                   span(style="font-size:130%; color:rgb(13, 212, 179) ") for EveryOne
+                p.para At our private gym in Newport Beach, you get all the support you need to reach your fitness goals and feel good while doing so. You'll have a trainer to guide you through your fitness plan and provide you with proven workouts that are both effective and fun. Other gyms make exercise feel like work. We want to help you see that fitness done right is leisure.
+
+                  p.para Our gym in Newport Beach, CA uses only the best equipment. They're adjustable, convenient, and allow you to perform a wide range of exercises and activities.
+
+                  p.para Schedule a complimentary tour and check out our Newport Beach boutique gym. Simply fill out our contact form and we'll get back to you soon.
+            div.box#box2
+             div.image
+                img(src='/static/trainer.jpg' alt='personal trainer')
+                p.ife Experience Trainers
+             div.image
+                img(src='/static/private.jpg' alt='semi-private gym')
+                p.ife Semi-Private Gym
+             div.image
+                img(src='/static/class.jpg' alt='Group classes')
+                p.ife Group Class
+             div.image
+                img(src='/static/food.jpg' alt='heldthy food')
+                p.ife Healthy Food
+block footer 
+        p#foot(style="background-color:black;color: rgb(207, 207, 207);") --This WebSite is created by Vivek Singh--
+            
